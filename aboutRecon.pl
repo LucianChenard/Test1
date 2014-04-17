@@ -5,7 +5,7 @@ require("MYSQL_Setup.pm");
 	$IS_TEST = 1;
 	
 	# Lucian Chenard was here
-	# Matt made this change
+	# Matt Dinger made this change
 	
 	use CGI;
 	my $query	= new CGI;
