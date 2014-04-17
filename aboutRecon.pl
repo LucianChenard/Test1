@@ -4,8 +4,11 @@ require("MYSQL_Setup.pm");
 
 	$IS_TEST = 1;
 	
+<<<<<<< HEAD
 	# Lucian Chenard was here from Canada
 	# Matt made this change yesterday
+=======
+>>>>>>> 4afca53304df423ccc66394b5a4f206f995897a7
 	
 	use CGI;
 	my $query	= new CGI;
