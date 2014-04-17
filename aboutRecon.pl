@@ -3,6 +3,9 @@ use CGI::Carp qw(fatalsToBrowser);
 require("MYSQL_Setup.pm");
 
 	$IS_TEST = 1;
+	
+	# test
+	
 	use CGI;
 	my $query	= new CGI;
 	$action						= $query->param('a');
